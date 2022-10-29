@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Static Template</title>
+  </head>
+
+  <body>
+    <div class="feed">
+      <div class="topo">
+        <img class="icone logo" src="imagens/logo 1.png" alt="icone UOL" />
+        <img
+          onclick="login()"
+          class="icone"
+          src="imagens/pessoas.svg"
+          alt="icone pessoas"
+        />
+      </div>
+      <div class="chat">
+        <ul class="itens">
+          <li class="mensagem automatica">
+            <p>
+              <span class="horario">(09:21:45) </span>
+              <span>João </span> Entra na sala...
+            </p>
+          </li>
+          <li class="mensagem">
+            <p>
+              <span class="horario">(09:21:45) </span>
+              <span>João </span> para <span>Todos</span>: Bom dia
+            </p>
+          </li>
+          <li class="mensagem">
+            <p>
+              <span class="horario">(09:21:45) </span>
+              <span>Maria </span> para <span>João</span>: Oi, João :)
+            </p>
+          </li>
+          <li class="mensagem reservada">
+            <p>
+              <span class="horario">(09:21:45) </span>
+              <span>João </span> reservadamente para <span>Maria</span>: Oi
+              gatinha quer tc?
+            </p>
+          </li>
+          <li class="mensagem automatica">
+            <p>
+              <span class="horario">(09:21:45) </span>
+              <span>Maria </span> sai da sala...
+            </p>
+          </li>
+
+         
+
+         
+
+          
+
+        </ul>
+      </div>
+      <div class="base">
+        <input class="mensagemDigitada" placeholder="Escreva aqui..." type="text" />
+        <img onclick="enviarMensagem()" class="icone" src="imagens/enviar.svg" alt="icone enviar" />
+      </div>
+
+      <!-- <div class="espaco escondido"></div>
+
+      <div class="opcoes escondido">
+        <p class="titulo">Escolha um contato para enviar mensagem:</p>
+
+        <ul>
+          <li class="item">
+            <img
+              class="icone"
+              src="imagens/pessoas.svg"
+              alt="iconepessoas"
+            />Todos
+          </li>
+          <li class="item">
+            <img
+              class="icone"
+              src="imagens/pessoa.svg"
+              alt="iconepessoas"
+            />João
+          </li>
+          <li class="item">
+            <img
+              class="icone"
+              src="imagens/pessoa.svg"
+              alt="iconepessoas"
+            />Maria
+          </li>
+        </ul>
+
+        <p class="titulo">Escolha a visibilidade:</p>
+        <ul>
+          <li class="item">
+            <img src="imagens/cadeado.svg" alt="iconeCadeado" />Público
+          </li>
+          <li class="item">
+            <img src="imagens/cadeado.svg" alt="iconeCadeado" />Reservadamente
+          </li>
+        </ul> -->
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
